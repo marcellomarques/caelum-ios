@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90161EA615EC2A1E001FCA97 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90161EA515EC2A1E001FCA97 /* MessageUI.framework */; };
+		9073D22715E43FA60050D18F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9073D22615E43FA60050D18F /* UIKit.framework */; };
+		9073D22915E43FA60050D18F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9073D22815E43FA60050D18F /* Foundation.framework */; };
+		9073D22B15E43FA60050D18F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9073D22A15E43FA60050D18F /* CoreGraphics.framework */; };
+		9073D23115E43FA60050D18F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9073D22F15E43FA60050D18F /* InfoPlist.strings */; };
+		9073D23315E43FA60050D18F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073D23215E43FA60050D18F /* main.m */; };
+		9073D23715E43FA60050D18F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073D23615E43FA60050D18F /* AppDelegate.m */; };
+		9073D24A15E4407A0050D18F /* ContatoFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073D24815E4407A0050D18F /* ContatoFormViewController.m */; };
+		9073D24B15E4407A0050D18F /* ContatoFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9073D24915E4407A0050D18F /* ContatoFormViewController.xib */; };
+		9073D25215E453F90050D18F /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073D25115E453F80050D18F /* Contato.m */; };
+		9089D37D15E59E840093BB6A /* ListaContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9089D37C15E59E840093BB6A /* ListaContatosViewController.m */; };
+		908ABA9F15ED962200C47A0A /* SiteDoContatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908ABA9D15ED962200C47A0A /* SiteDoContatoViewController.m */; };
+		908ABAA015ED962200C47A0A /* SiteDoContatoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 908ABA9E15ED962200C47A0A /* SiteDoContatoViewController.xib */; };
+		90D7281915ED73CA00A93485 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D7281815ED73CA00A93485 /* MapKit.framework */; };
+		90D7281E15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D7281C15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.m */; };
+		90D7281F15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D7281D15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.xib */; };
+		90D7282915ED7FF300A93485 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D7282015ED7FF300A93485 /* Default.png */; };
+		90D7282A15ED7FF300A93485 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D7282115ED7FF300A93485 /* Default@2x.png */; };
+		90D7282B15ED7FF300A93485 /* gps.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D7282215ED7FF300A93485 /* gps.png */; };
+		90D7282C15ED7FF300A93485 /* gps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D7282315ED7FF300A93485 /* gps@2x.png */; };
+		90D7282D15ED7FF300A93485 /* lista-contatos.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D7282415ED7FF300A93485 /* lista-contatos.png */; };
+		90D7282E15ED7FF300A93485 /* lista-contatos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D7282515ED7FF300A93485 /* lista-contatos@2x.png */; };
+		90D7282F15ED7FF300A93485 /* mapa-contatos.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D7282615ED7FF300A93485 /* mapa-contatos.png */; };
+		90D7283015ED7FF300A93485 /* mapa-contatos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D7282715ED7FF300A93485 /* mapa-contatos@2x.png */; };
+		90D7283115ED7FF300A93485 /* Vila Mariana.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 90D7282815ED7FF300A93485 /* Vila Mariana.gpx */; };
+		90EDE0C215EEDEDD0068B73D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EDE0C115EEDEDD0068B73D /* TPKeyboardAvoidingScrollView.m */; };
+		90EDE0C515EEE95C0068B73D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EDE0C415EEE95C0068B73D /* CoreLocation.framework */; };
+		90F2C60715EC3F02000BC6AE /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F2C60615EC3F02000BC6AE /* Twitter.framework */; };
+		90F35DC615E6F16500BC8049 /* Contatos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90F35DC515E6F16500BC8049 /* Contatos.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90161EA515EC2A1E001FCA97 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9073D22215E43FA60050D18F /* ContatosIP67.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContatosIP67.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9073D22615E43FA60050D18F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9073D22815E43FA60050D18F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9073D22A15E43FA60050D18F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9073D22E15E43FA60050D18F /* ContatosIP67-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContatosIP67-Info.plist"; sourceTree = "<group>"; };
+		9073D23015E43FA60050D18F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9073D23215E43FA60050D18F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9073D23415E43FA60050D18F /* ContatosIP67-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContatosIP67-Prefix.pch"; sourceTree = "<group>"; };
+		9073D23515E43FA60050D18F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9073D23615E43FA60050D18F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9073D24715E4407A0050D18F /* ContatoFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoFormViewController.h; sourceTree = "<group>"; };
+		9073D24815E4407A0050D18F /* ContatoFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoFormViewController.m; sourceTree = "<group>"; };
+		9073D24915E4407A0050D18F /* ContatoFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContatoFormViewController.xib; sourceTree = "<group>"; };
+		9073D25015E453F80050D18F /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
+		9073D25115E453F80050D18F /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		9089D37B15E59E840093BB6A /* ListaContatosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaContatosViewController.h; sourceTree = "<group>"; };
+		9089D37C15E59E840093BB6A /* ListaContatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaContatosViewController.m; sourceTree = "<group>"; };
+		908ABA9C15ED962200C47A0A /* SiteDoContatoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiteDoContatoViewController.h; path = ../SiteDoContatoViewController.h; sourceTree = "<group>"; };
+		908ABA9D15ED962200C47A0A /* SiteDoContatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteDoContatoViewController.m; path = ../SiteDoContatoViewController.m; sourceTree = "<group>"; };
+		908ABA9E15ED962200C47A0A /* SiteDoContatoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SiteDoContatoViewController.xib; path = ../SiteDoContatoViewController.xib; sourceTree = "<group>"; };
+		90BED1E515E849F900108C71 /* ContatoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContatoProtocol.h; sourceTree = "<group>"; };
+		90BED1E615E84B0600108C71 /* ListaContatosProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListaContatosProtocol.h; sourceTree = "<group>"; };
+		90D7281815ED73CA00A93485 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		90D7281B15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatosNoMapaViewControllerViewController.h; sourceTree = "<group>"; };
+		90D7281C15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatosNoMapaViewControllerViewController.m; sourceTree = "<group>"; };
+		90D7281D15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContatosNoMapaViewControllerViewController.xib; sourceTree = "<group>"; };
+		90D7282015ED7FF300A93485 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		90D7282115ED7FF300A93485 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		90D7282215ED7FF300A93485 /* gps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gps.png; sourceTree = "<group>"; };
+		90D7282315ED7FF300A93485 /* gps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps@2x.png"; sourceTree = "<group>"; };
+		90D7282415ED7FF300A93485 /* lista-contatos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lista-contatos.png"; sourceTree = "<group>"; };
+		90D7282515ED7FF300A93485 /* lista-contatos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lista-contatos@2x.png"; sourceTree = "<group>"; };
+		90D7282615ED7FF300A93485 /* mapa-contatos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapa-contatos.png"; sourceTree = "<group>"; };
+		90D7282715ED7FF300A93485 /* mapa-contatos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapa-contatos@2x.png"; sourceTree = "<group>"; };
+		90D7282815ED7FF300A93485 /* Vila Mariana.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Vila Mariana.gpx"; sourceTree = "<group>"; };
+		90EDE0C015EEDEDD0068B73D /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		90EDE0C115EEDEDD0068B73D /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		90EDE0C415EEE95C0068B73D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		90F2C60615EC3F02000BC6AE /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		90F35DC515E6F16500BC8049 /* Contatos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contatos.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9073D21F15E43FA60050D18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EDE0C515EEE95C0068B73D /* CoreLocation.framework in Frameworks */,
+				90D7281915ED73CA00A93485 /* MapKit.framework in Frameworks */,
+				90F2C60715EC3F02000BC6AE /* Twitter.framework in Frameworks */,
+				90161EA615EC2A1E001FCA97 /* MessageUI.framework in Frameworks */,
+				9073D22715E43FA60050D18F /* UIKit.framework in Frameworks */,
+				9073D22915E43FA60050D18F /* Foundation.framework in Frameworks */,
+				9073D22B15E43FA60050D18F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9073D21715E43FA60050D18F = {
+			isa = PBXGroup;
+			children = (
+				9073D22C15E43FA60050D18F /* ContatosIP67 */,
+				9073D22515E43FA60050D18F /* Frameworks */,
+				9073D22315E43FA60050D18F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9073D22315E43FA60050D18F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9073D22215E43FA60050D18F /* ContatosIP67.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9073D22515E43FA60050D18F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90EDE0C415EEE95C0068B73D /* CoreLocation.framework */,
+				90D7281815ED73CA00A93485 /* MapKit.framework */,
+				90F2C60615EC3F02000BC6AE /* Twitter.framework */,
+				90161EA515EC2A1E001FCA97 /* MessageUI.framework */,
+				9073D22A15E43FA60050D18F /* CoreGraphics.framework */,
+				9073D22815E43FA60050D18F /* Foundation.framework */,
+				9073D22615E43FA60050D18F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9073D22C15E43FA60050D18F /* ContatosIP67 */ = {
+			isa = PBXGroup;
+			children = (
+				90EDE0C015EEDEDD0068B73D /* TPKeyboardAvoidingScrollView.h */,
+				90EDE0C115EEDEDD0068B73D /* TPKeyboardAvoidingScrollView.m */,
+				9073D23515E43FA60050D18F /* AppDelegate.h */,
+				9073D23615E43FA60050D18F /* AppDelegate.m */,
+				9073D25015E453F80050D18F /* Contato.h */,
+				9073D25115E453F80050D18F /* Contato.m */,
+				9073D24715E4407A0050D18F /* ContatoFormViewController.h */,
+				9073D24815E4407A0050D18F /* ContatoFormViewController.m */,
+				9073D24915E4407A0050D18F /* ContatoFormViewController.xib */,
+				90BED1E515E849F900108C71 /* ContatoProtocol.h */,
+				90F35DC515E6F16500BC8049 /* Contatos.plist */,
+				90BED1E615E84B0600108C71 /* ListaContatosProtocol.h */,
+				9089D37B15E59E840093BB6A /* ListaContatosViewController.h */,
+				9089D37C15E59E840093BB6A /* ListaContatosViewController.m */,
+				90D7281B15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.h */,
+				90D7281C15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.m */,
+				90D7281D15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.xib */,
+				908ABA9C15ED962200C47A0A /* SiteDoContatoViewController.h */,
+				908ABA9D15ED962200C47A0A /* SiteDoContatoViewController.m */,
+				908ABA9E15ED962200C47A0A /* SiteDoContatoViewController.xib */,
+				90D7283215ED800700A93485 /* resources */,
+				9073D22D15E43FA60050D18F /* Supporting Files */,
+			);
+			path = ContatosIP67;
+			sourceTree = "<group>";
+		};
+		9073D22D15E43FA60050D18F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9073D22E15E43FA60050D18F /* ContatosIP67-Info.plist */,
+				9073D22F15E43FA60050D18F /* InfoPlist.strings */,
+				9073D23215E43FA60050D18F /* main.m */,
+				9073D23415E43FA60050D18F /* ContatosIP67-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90D7283215ED800700A93485 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				90D7282015ED7FF300A93485 /* Default.png */,
+				90D7282115ED7FF300A93485 /* Default@2x.png */,
+				90D7282215ED7FF300A93485 /* gps.png */,
+				90D7282315ED7FF300A93485 /* gps@2x.png */,
+				90D7282415ED7FF300A93485 /* lista-contatos.png */,
+				90D7282515ED7FF300A93485 /* lista-contatos@2x.png */,
+				90D7282615ED7FF300A93485 /* mapa-contatos.png */,
+				90D7282715ED7FF300A93485 /* mapa-contatos@2x.png */,
+				90D7282815ED7FF300A93485 /* Vila Mariana.gpx */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9073D22115E43FA60050D18F /* ContatosIP67 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9073D23A15E43FA60050D18F /* Build configuration list for PBXNativeTarget "ContatosIP67" */;
+			buildPhases = (
+				9073D21E15E43FA60050D18F /* Sources */,
+				9073D21F15E43FA60050D18F /* Frameworks */,
+				9073D22015E43FA60050D18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContatosIP67;
+			productName = ContatosIP67;
+			productReference = 9073D22215E43FA60050D18F /* ContatosIP67.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9073D21915E43FA60050D18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9073D21C15E43FA60050D18F /* Build configuration list for PBXProject "ContatosIP67" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9073D21715E43FA60050D18F;
+			productRefGroup = 9073D22315E43FA60050D18F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9073D22115E43FA60050D18F /* ContatosIP67 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9073D22015E43FA60050D18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9073D23115E43FA60050D18F /* InfoPlist.strings in Resources */,
+				9073D24B15E4407A0050D18F /* ContatoFormViewController.xib in Resources */,
+				90F35DC615E6F16500BC8049 /* Contatos.plist in Resources */,
+				90D7281F15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.xib in Resources */,
+				90D7282915ED7FF300A93485 /* Default.png in Resources */,
+				90D7282A15ED7FF300A93485 /* Default@2x.png in Resources */,
+				90D7282B15ED7FF300A93485 /* gps.png in Resources */,
+				90D7282C15ED7FF300A93485 /* gps@2x.png in Resources */,
+				90D7282D15ED7FF300A93485 /* lista-contatos.png in Resources */,
+				90D7282E15ED7FF300A93485 /* lista-contatos@2x.png in Resources */,
+				90D7282F15ED7FF300A93485 /* mapa-contatos.png in Resources */,
+				90D7283015ED7FF300A93485 /* mapa-contatos@2x.png in Resources */,
+				90D7283115ED7FF300A93485 /* Vila Mariana.gpx in Resources */,
+				908ABAA015ED962200C47A0A /* SiteDoContatoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9073D21E15E43FA60050D18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9073D23315E43FA60050D18F /* main.m in Sources */,
+				9073D23715E43FA60050D18F /* AppDelegate.m in Sources */,
+				9073D24A15E4407A0050D18F /* ContatoFormViewController.m in Sources */,
+				9073D25215E453F90050D18F /* Contato.m in Sources */,
+				9089D37D15E59E840093BB6A /* ListaContatosViewController.m in Sources */,
+				90D7281E15ED74BC00A93485 /* ContatosNoMapaViewControllerViewController.m in Sources */,
+				908ABA9F15ED962200C47A0A /* SiteDoContatoViewController.m in Sources */,
+				90EDE0C215EEDEDD0068B73D /* TPKeyboardAvoidingScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9073D22F15E43FA60050D18F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9073D23015E43FA60050D18F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9073D23815E43FA60050D18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9073D23915E43FA60050D18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9073D23B15E43FA60050D18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContatosIP67/ContatosIP67-Prefix.pch";
+				INFOPLIST_FILE = "ContatosIP67/ContatosIP67-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9073D23C15E43FA60050D18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContatosIP67/ContatosIP67-Prefix.pch";
+				INFOPLIST_FILE = "ContatosIP67/ContatosIP67-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9073D21C15E43FA60050D18F /* Build configuration list for PBXProject "ContatosIP67" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9073D23815E43FA60050D18F /* Debug */,
+				9073D23915E43FA60050D18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9073D23A15E43FA60050D18F /* Build configuration list for PBXNativeTarget "ContatosIP67" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9073D23B15E43FA60050D18F /* Debug */,
+				9073D23C15E43FA60050D18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9073D21915E43FA60050D18F /* Project object */;
+}
